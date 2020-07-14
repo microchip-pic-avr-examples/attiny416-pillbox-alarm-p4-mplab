@@ -1,41 +1,34 @@
-<!-- Please do not change this html logo with link -->
 <a href="https://www.microchip.com" rel="nofollow"><img src="images/microchip.png" alt="MCHP" width="300"/></a>
 
-# Update the title for attiny416-pillbox-alarm-p4-mplab here
+# ATtiny416 Pillbox Alarm Application
 
-<!-- This is where the introduction to the example goes, including mentioning the peripherals used -->
+Theapplication allows the user to set up to four different daily alarm times, such as reminders to take pills atrequired times. When an alarm occurs, a piezoelectric buzzer generates a pulsating sound and the LEDassociated with that alarm flashes.
+
+The example is explained in more details in the application note [AN2387](#Related-Documentation)
 
 ## Related Documentation
 
-<!-- Any information about an application note or tech brief can be linked here. Use unbreakable links!
-     In addition a link to the device family landing page and relevant peripheral pages as well:
-     - [AN3381 - Brushless DC Fan Speed Control Using Temperature Input and Tachometer Feedback](https://microchip.com/00003381/)
-     - [PIC18F-Q10 Family Product Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic18f-q10-product-family) -->
+- [AN2607 - Pillbox Alarm Application for the AVR® P4 FEB](https://www.microchip.com//wwwAppNotes/AppNotes.aspx?appnote=en603897)
+- [ATtiny416 Product Page](https://www.microchip.com/wwwproducts/en/ATtiny416)
 
 ## Software Used
 
-<!-- All software used in this example must be listed here. Use unbreakable links!
-     - MPLAB® X IDE 5.30 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
-     - MPLAB® XC8 2.10 or a newer compiler [(microchip.com/mplab/compilers)](http://www.microchip.com/mplab/compilers)
-     - MPLAB® Code Configurator (MCC) 3.95.0 or newer [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - MPLAB® Code Configurator (MCC) Device Libraries PIC10 / PIC12 / PIC16 / PIC18 MCUs [(microchip.com/mplab/mplab-code-configurator)](https://www.microchip.com/mplab/mplab-code-configurator)
-     - Microchip PIC18F-Q Series Device Support (1.4.109) or newer [(packs.download.microchip.com/)](https://packs.download.microchip.com/) -->
+- [MPLAB X IDE v5.40 or later](https://www.microchip.com/mplab/mplab-x-ide)
+- [XC8 (v2.20)](https://www.microchip.com/mplab/compilers) alternativly [AVR/GNU C Compiler 5.4.0](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) can be used
+- ATtiny_DFP 1.5.315 or later
 
 ## Hardware Used
 
-<!-- All hardware used in this example must be listed here. Use unbreakable links!
-     - PIC18F47Q10 Curiosity Nano [(DM182029)](https://www.microchip.com/Developmenttools/ProductDetails/DM182029)
-     - Curiosity Nano Base for Click boards™ [(AC164162)](https://www.microchip.com/Developmenttools/ProductDetails/AC164162)
-     - POT Click board™ [(MIKROE-3402)](https://www.mikroe.com/pot-click) -->
-
-## Setup
-
-<!-- Explain how to connect hardware and set up software. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
+-  [AVR P4](https://www.microchip.com/DevelopmentTools/ProductDetails/PartNO/ATAVRFEB-P4)
 
 ## Operation
 
-<!-- Explain how to operate the example. Depending on complexity, step-by-step instructions and/or tables and/or images can be used -->
+1. Open `PillboxAlarmP4.X` in MPLAB.
+2. Connect the AVR P4 with your computer.
+3. Make sure the kit is selected as the tool to be programmed under project settings.
+4. Press the make and program button to program the device.
+4. Interact with the alarm according to the application note.
 
-## Summary
+## Conclusion
 
-<!-- Summarize what the example has shown -->
+We have here shown the possibility to use the ATtiny416 as a Pillbox Alarm Application.
