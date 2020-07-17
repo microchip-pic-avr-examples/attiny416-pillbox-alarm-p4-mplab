@@ -2,10 +2,9 @@
 
 # ATtiny416 Pillbox Alarm Application
 
-Theapplication allows the user to set up to four different daily alarm times, such as reminders to take pills atrequired times. When an alarm occurs, a piezoelectric buzzer generates a pulsating sound and the LEDassociated with that alarm flashes.
+The application allows the user to set up to four different daily alarm times, such as reminders to take pills at required times. When an alarm occurs, a piezoelectric buzzer generates a pulsating sound and the LED associated with that alarm flashes.
 
-The example is explained in more details in the application note [AN2387](#Related-Documentation)
-
+The example is explained in more details in the application note [AN2387](https://www.microchip.com//wwwAppNotes/AppNotes.aspx?appnote=en603897).
 ## Related Documentation
 
 - [AN2607 - Pillbox Alarm Application for the AVR® P4 FEB](https://www.microchip.com//wwwAppNotes/AppNotes.aspx?appnote=en603897)
@@ -14,7 +13,7 @@ The example is explained in more details in the application note [AN2387](#Relat
 ## Software Used
 
 - [MPLAB X IDE v5.40 or later](https://www.microchip.com/mplab/mplab-x-ide)
-- [XC8 (v2.20)](https://www.microchip.com/mplab/compilers) alternativly [AVR/GNU C Compiler 5.4.0](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) can be used
+- [XC8 (v2.20)](https://www.microchip.com/mplab/compilers) alternatively [AVR/GNU C Compiler 5.4.0](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) can be used
 - ATtiny_DFP 2.2.89 or later
 
 ## Hardware Used
@@ -23,11 +22,12 @@ The example is explained in more details in the application note [AN2387](#Relat
 
 ## Operation
 
-1. Open `PillboxAlarmP4.X` in MPLAB.
-2. Connect the AVR P4 with your computer.
-3. Make sure the kit is selected as the tool to be programmed under project settings.
-4. Press the make and program button to program the device.
-4. Interact with the alarm according to the application note.
+1. Download the zip file or clone the example to get the source code.
+2. Open `PillboxAlarmP4.X` in MPLAB.
+3. Connect the AVR P4 with your computer.
+4. Make sure the kit is selected as the tool to be programmed under project settings.
+5. Press the make and program button to program the device.
+6. Interact with the alarm according to the application note.
 
 ## Conclusion
 
