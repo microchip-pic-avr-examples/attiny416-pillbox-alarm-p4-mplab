@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>PillboxAlarmP4</name>
+            <name>attiny416-pillbox-alarm-p4-mplab</name>
             <creation-uuid>f0f0e67a-3917-4453-90d7-7b962d82f60c</creation-uuid>
             <make-project-type>0</make-project-type>
             <c-extensions>c</c-extensions>
