@@ -23,7 +23,7 @@ The example is explained in more details in the application note [AN2387](https:
 ## Operation
 
 1. Download the zip file or clone the example to get the source code.
-2. Open `PillboxAlarmP4.X` in MPLAB.
+2. Open `attiny416-pillbox-alarm-p4-mplab.X` in MPLAB.
 3. Connect the AVR P4 with your computer.
 4. Make sure the kit is selected as the tool to be programmed under project settings.
 5. Press the make and program button to program the device.
