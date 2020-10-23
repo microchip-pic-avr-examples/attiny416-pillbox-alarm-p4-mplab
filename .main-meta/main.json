@@ -1,0 +1,99 @@
+{
+    "metaDataVersion": "1.0.0",
+    "category": "com.microchip.ide.project",
+    "content": {
+        "metaDataVersion": "1.1.0",
+        "name": "com.microchip.mcu8.mplabx.project.attiny416-pillbox-alarm-p4-mplab",
+        "version": "1.0.0",
+        "displayName": "ATtiny416 Pillbox Alarm Application",
+        "projectName": "attiny416-pillbox-alarm-p4-mplab",
+        "shortDescription": "The application allows the user to set up to four different daily alarm times, such as reminders to take pills at required times. When an alarm occurs, a piezoelectric buzzer generates a pulsating sound and the LED associated with that alarm flashes.",
+        "ide": {
+            "name": "MPLABX",
+            "semverRange": ">=5.40"
+        },
+        "compiler": [
+            {
+                "name": "XC8",
+                "semverRange": "^2.20"
+            }
+        ],
+        "dfp": {
+            "name": "ATtiny_DFP",
+            "semverRange": "^2.2.89"
+        },
+        "configurator": {
+            "name": "N/A",
+            "semverRange": ""
+        },
+        "device": {
+            "metaDataVersion": "1.0.0",
+            "category": "com.microchip.portal.contentRef",
+            "content": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.device",
+                "name": "ATtiny416",
+                "versionRange": "*"
+            }
+        },
+        "author": "Microchip",
+        "subcategories": [
+            [
+                "Peripherals",
+                "TWI"
+            ],
+            [
+                "Peripherals",
+                "RTC"
+            ],
+            [
+                "Peripherals",
+                "ADC"
+            ],
+            [
+                "Peripherals",
+                "VREF"
+            ],
+            [
+                "Peripherals",
+                "EVSYS"
+            ],
+            [
+                "Peripherals",
+                "SLPCTRL"
+            ],
+            [
+                "Peripherals",
+                "TCA"
+            ],
+            [
+                "Development Kit",
+                "AVR P4"
+            ]
+        ],
+        "peripherals": [
+            "TWI",
+            "RTC",
+            "ADC",
+            "VREF",
+            "EVSYS",
+            "SLPCTRL",
+            "TCA"
+        ],
+        "keywords": [
+            "",
+            ""
+        ],
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
+}
