@@ -2,7 +2,7 @@
     "metaDataVersion": "1.0.0",
     "category": "com.microchip.ide.project",
     "content": {
-        "metaDataVersion": "1.1.0",
+        "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.attiny416-pillbox-alarm-p4-mplab",
         "version": "1.0.1",
         "displayName": "ATtiny416 Pillbox Alarm Application",
@@ -32,45 +32,11 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "ATtiny416",
+                "name": "ATTINY416",
                 "versionRange": "*"
             }
         },
         "author": "Microchip",
-        "subcategories": [
-            [
-                "Peripherals",
-                "TWI"
-            ],
-            [
-                "Peripherals",
-                "RTC"
-            ],
-            [
-                "Peripherals",
-                "ADC"
-            ],
-            [
-                "Peripherals",
-                "VREF"
-            ],
-            [
-                "Peripherals",
-                "EVSYS"
-            ],
-            [
-                "Peripherals",
-                "SLPCTRL"
-            ],
-            [
-                "Peripherals",
-                "TCA"
-            ],
-            [
-                "Development Kit",
-                "AVR P4"
-            ]
-        ],
         "peripherals": [
             "TWI",
             "RTC",
