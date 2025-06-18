@@ -4,7 +4,7 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.attiny416-pillbox-alarm-p4-mplab",
-        "version": "1.0.1",
+        "version": "1.0.2",
         "displayName": "ATtiny416 Pillbox Alarm Application",
         "projectName": "attiny416-pillbox-alarm-p4-mplab",
         "shortDescription": "The application allows the user to set up to four different daily alarm times, such as reminders to take pills at required times. When an alarm occurs, a piezoelectric buzzer generates a pulsating sound and the LED associated with that alarm flashes.",
